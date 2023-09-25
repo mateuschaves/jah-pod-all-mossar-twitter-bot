@@ -1,0 +1,22 @@
+{
+  "name": "jah-pod-twitter-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "tsup ./src/main.ts --format cjs --minify --dts-resolve",
+    "dev": "tsup ./src/main.ts --format cjs --watch --dts-resolve"
+  },
+  "keywords": [],
+  "author": "Mateus Henrique Chaves Araújo Morais",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "twit": "^2.2.11"
+  },
+  "devDependencies": {
+    "@types/twit": "^2.2.32",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2"
+  }
+}
