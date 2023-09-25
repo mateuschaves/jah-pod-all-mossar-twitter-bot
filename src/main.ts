@@ -1,3 +1,7 @@
 import './config/env';
 
-import twitterClient from './config/twit';
+import { subscribeToTweetEvent } from './services/twit';
+
+
+subscribeToTweetEvent()
+

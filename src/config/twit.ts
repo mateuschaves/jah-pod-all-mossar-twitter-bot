@@ -7,5 +7,7 @@ const twitterClient = new Twitter({
   access_token_secret: process.env.TWITTER_ACCESS_TOKEN_SECRET || ''
 });
 
+console.log(twitterClient);
+
 
 export default twitterClient;
